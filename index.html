@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Roleta - Demo</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>🎡Jogo da Roleta - Demo</h1>
+
+      <section class="roleta-section">
+        <div class="roleta" id="roleta">
+          <div class="ponteiro"></div>
+          <div class="giro" id="giro">
+            <!-- Os números serão inseridos aqui pelo JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <section class="painel">
+        <p>💰 Saldo: <span id="saldo">1000</span> créditos</p>
+
+        <label>Tipo de Aposta:</label>
+        <select id="tipo-aposta">
+          <option value="numero">Número</option>
+          <option value="cor">Cor</option>
+          <option value="paridade">Par/Ímpar</option>
+        </select>
+
+        <label for="escolha">Escolha:</label>
+        <input type="text" id="escolha" placeholder="Ex: 17, vermelho, par" />
+
+        <label>Valor da Aposta:</label>
+        <input type="number" id="valor" value="100" min="1" />
+
+        <button id="btn-girar">Girar Roleta</button>
+        <p id="mensagem"></p>
+      </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
