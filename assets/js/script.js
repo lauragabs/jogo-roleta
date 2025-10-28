@@ -188,6 +188,13 @@ btnGirar.addEventListener("click", () => {
   const escolha = document.getElementById("escolha").value.trim().toLowerCase();
   const valor = parseInt(document.getElementById("valor").value);
 
+  // Verificar se a escolha está vazia
+  if (escolha === "") {
+    return exibirMensagem(
+      "⚠️ Por favor, faça sua escolha antes de girar a roleta."
+    );
+  }
+
   if (isNaN(valor) || valor <= 0) {
     return exibirMensagem("💡 Valor da aposta inválido.");
   }
