@@ -1,6 +1,6 @@
 # 🎡 Jogo da Roleta
 
-Um jogo de roleta europeia interativo desenvolvido com HTML5, CSS3 e JavaScript vanilla. Interface moderna com efeitos glassmorphism e design totalmente responsivo.
+Um jogo de roleta europeia interativo desenvolvido com HTML5, CSS3 e JavaScript. Interface moderna com efeitos glassmorphism e design totalmente responsivo.
 
 ## 🎮 Funcionalidades
 
